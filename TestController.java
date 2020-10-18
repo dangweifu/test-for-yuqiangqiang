@@ -23,14 +23,4 @@ public class TestController {
         return map ;
     }
 
-    @PostMapping("/second")
-    public Map second(@RequestBody Map<String,Object> map){
-        return map ;
-    }
-
-    @PostMapping("/third")
-    public Map third(@RequestBody Map<String,Object> map){
-        return map ;
-    }
-
 }
